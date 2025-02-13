@@ -20,4 +20,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN yes | unminimize
 
+RUN mkdir -p /root/workspace
+
+WORKDIR /root/workspace
+
 CMD ["/bin/zsh"]
