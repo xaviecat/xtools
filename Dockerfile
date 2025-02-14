@@ -7,6 +7,7 @@ LABEL org.opencontainers.image.source="https://github.com/xaviecat/xtools"
 RUN apt-get update && apt-get install -y \
     build-essential\
     curl\
+    ffmpeg\
     git-filter-repo\
     git\
     htop\
