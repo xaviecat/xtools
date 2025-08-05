@@ -13,7 +13,9 @@ RUN apt-get update && apt-get install -y \
     htop\
     imagemagick\
     libreadline-dev\
+    ltrace\
     man\
+    strace\
     unminimize\
     valgrind\
     vim\
