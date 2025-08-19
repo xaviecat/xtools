@@ -12,10 +12,15 @@ RUN apt-get update && apt-get install -y \
     git\
     htop\
     imagemagick\
+    latexmk\
     libreadline-dev\
     ltrace\
     man\
     strace\
+    texlive-latex-base\
+    texlive-fonts-recommended\
+    texlive-fonts-extra\
+    texlive-latex-extra\
     unminimize\
     valgrind\
     vim\
